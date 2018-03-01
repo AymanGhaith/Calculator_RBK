@@ -115,4 +115,20 @@ $(document).ready(function(){
 	}
 	resultFlag=true;
 	});
+	$("#clearResultArr").on("click",function(){
+		resultArray = [];
+		$("#resultarray").text("");
+	})
+
+	//adding game mode
+	//
+	$("#gameMode").on("change",function(){
+		var guess=$('<input type="text" name="text" id="guessText" placeholder="Guess the number">')
+		if (this.checked) {
+			$(this).after(guess);
+		} else {
+			$("#guessText").remove();
+		}
+	});
+
 })

@@ -1,0 +1,33 @@
+body{
+	background-image: url("_original.jpeg");
+	background-size: 100%;
+}
+
+table{
+	border-color: black;
+	border-style: solid;
+	background-color: gray;
+	width: 100%;
+
+}
+
+button{
+	width: 100%;
+	font-size: 20px;
+}
+
+.number,#dot{
+	background-color: darkgray;
+}
+
+#equal{
+	background-color: turquoise;
+}
+
+#cls,#undo{
+	background-color:salmon; 
+}
+
+img {
+    opacity: 0.5;
+}
